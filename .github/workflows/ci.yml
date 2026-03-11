@@ -30,13 +30,10 @@ jobs:
       - name: Step 4 - Build Project
         run: mvn clean compile -e
 
-      - name: Step 5 - Run Tests
-        run: mvn test -Dmaven.test.skip=true
-
-      - name: Step 6 - Package JAR
+      - name: Step 5 - Package JAR (skip tests)
         run: mvn package -DskipTests
 
-      - name: Step 7 - Upload JAR
+      - name: Step 6 - Upload JAR
         uses: actions/upload-artifact@v4
         with:
           name: poc-hello-world-jar

@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="allowReplaceRegexp" value="Copyright \(c\).*Hasnain Energy" />
+    <option name="notice" value="Copyright (c) Hasnain Energy &amp;#36;originalComment.match(&quot;Copyright \(c\) Hasnain Energy (\d{4})&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year ALL RIGHTS RESERVED&#10;&#10;HE-DCS" />
+    <option name="myName" value="HE-DCS-Java-Copyright" />
+  </copyright>
+</component>

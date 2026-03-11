@@ -6,7 +6,6 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Removed parent block - CI cannot access parent pom -->
     <groupId>com.bea.poc</groupId>
     <artifactId>poc.hello.world</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -19,7 +18,6 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit 5 for testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
